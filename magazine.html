@@ -4,7 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>WKND</title>
+    <title>Magazine</title>
 </head>
 <body>
     <div id="container">
@@ -29,7 +29,7 @@
                         <img src="img/WKND.png" alt="WKND Logo" >
                 </div>
                 <ul>
-                    <li><a href="magazine.html">Magazine</a></li>
+                    <li><a href="magazine.html" class="selected">Magazine</a></li>
                     <li><a href="adventures.html">Adventures</a></li>
                     <li><a href="faq.html">Faq</a></li>
                     <li><a href="about_us.html">About Us</a></li>
@@ -39,29 +39,18 @@
                     <a href="#" class="fa fa-search"></a>
                 </form>
             </nav>
-            <div class="banner">
-                 <img src="img/banner.jpg" alt="Header Banner">
-                <section>
-                    <h3>WKND Adventures</h3>
-                    <p>Join us on one of our next adventures. 
-                        Browse our list of curated experiences and sign 
-                        up for one when you’re ready to explore with us.
-                       </p>
-                       <span class="button">view trips</span>
-                       <!-- another branch to be opened for js slider -->
-                 </section>
-             </div>
         </header>
         <!-- header-->
 
         <!-- main-->
         <main>
+            <div class="magazine">
+                <h2>Magazine</h2>
+            </div>
             <section>
                 <div class="article">
-                    <div class="hr_underline">
-                        <h3>Last Article</h3>
-                        <hr>
-                    </div>
+                    <h3>Last Article</h3>
+                    <hr>
                     <h4>Camping in Western Australia</h4>
                     <p>A vibrant red, dusty highway stretches out before us 
                         into what seems like infinity, at the far reach of our 
@@ -73,21 +62,9 @@
                 <img src="img/river.jpg" alt="River Img">
             </section>
             <article>
-                <div class="hr_underline">
-                    <h3>Recent Article</h3>
-                    <hr>
-                 </div>
+                <h3 class="hr_underline">All Article</h3>
+                <hr>
                 <div class="images">
-                    <div class="skater">
-                        <img src="img/skater.jpg" alt="Skater">
-                        <p>Ultimate guide to la skateparks</p>
-                        <p>Stacey Roswells</p>
-                    </div>
-                    <div class="skii">
-                        <img src="img/skii.jpg" alt="Skii Touring">
-                        <p>Skiitouring</p>
-                        <p>Sofia Sjoberg</p>
-                    </div>
                     <div class="surfer">
                         <img src="img/surfer.jpg" alt="Arctic Surfing">
                         <p>Arctic Surfing</p>
@@ -98,51 +75,43 @@
                         <p>San Diego Surf Spots</p>
                         <p>Justin Barr</p>
                     </div>
+                    <div class="skii">
+                        <img src="img/skii.jpg" alt="Skii Touring">
+                        <p>Skiitouring</p>
+                        <p>Sofia Sjoberg</p>
+                    </div>
+                    <div class="skater">
+                        <img src="img/skater.jpg" alt="Skater">
+                        <p>Ultimate guide to la skateparks</p>
+                        <p>Stacey Roswells</p>
+                    </div>
+                    <div class="riverside_camping">
+                        <img src="img/western_australia.jpg" alt="Riverside Camping">
+                        <p>Western Australia</p>
+                        <p>Likoji Mukoko</p>
+                    </div>
                 </div>
             </article>
             <hr>           
-            <div class="banner">
-                <div>
-                 <h3  class="hr_underline">Next Adventures</h3>
-                 <hr>
+            <div class="members">
+                <div class="hr_underline">
+                    <h3>Members only</h3>
+                    <hr>
                 </div>
-                <img src="img/banner.jpg" alt="Header Banner">
-                <section>
-                    <h3>Climbing New Zealand</h3>
-                    <p>Let us help you make your New Zealand climbing vacation a 
-                        memory you will cherish forever! Come join us for a guided 
-                        rock climbing adventure in the mountains that trained Sir Edmund Hilary.
-                    </p>
-                    <span class="button">view trips</span>
-                </section>
+                <p><b>Sign in</b> to un-lock exclusive content for WKND members only!</p>
+                <div class="blur_images">
+                    <div class="bear">
+                        <img src="img/bear.jpg" alt="Alaskan Adventure Members Only">
+                        <p>Alaskan Adventure</p>
+                        <p>Discover the 49th state</p>
+                    </div>
+                    <div class="bear">
+                        <img src="img/amazon.jpg" alt="Fly Fishing The Amazaon Members Only">
+                        <p>Fly fishing the amazaon</p>
+                        <p>Experience the amazaon like never before</p>
+                    </div>
+                </div>
             </div>
-            <article>
-                <p>Where do you want to go?</p>
-                <div class="images">
-                    <div class="whistler_mountain">
-                        <img src="img/whistler_mountain.jpg" alt="whistler Mountain">
-                        <p>whistler Mountain</p>
-                        <p>Cycling</p>
-                    </div>
-                    <div class="surf_camp">
-                        <img src="img/surf_camp.jpg" alt="Surf Camping in Costa Rica">
-                        <p>Surf Camp in Costa Rica</p>
-                        <p>Surfing</p>
-                    </div>
-                    <div class="ski_touring">
-                        <img src="img/ski_touring.jpg" alt="Ski Touring Mont Blanc">
-                        <p>Ski Touring Mont Blanc</p>
-                        <p>skiing</p>
-                    </div>
-                    <div class="riverside_camping">
-                        <img src="img/riverside_camping.jpg" alt="Riverside Camping">
-                        <p>Riverside camping</p>
-                        <p>Camping</p>
-                    </div>
-                    <span class="dark_button">explore all</span>
-                </div>
-                <hr>
-            </article>
             <div class="inbox">
                 <img src="img/mountain_inbox.jpg" alt="Mountain">
                 <div class="wknd_inbx">
