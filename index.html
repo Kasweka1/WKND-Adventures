@@ -4,6 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/style.css">
     <title>WKND</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
                 <a href="#" class="fa fa-user"></a>
                 <p>Account</p>
                 <!-- the drop down for languages  and how to style them effeciently-->
-                <form method = "get">
+                <!-- <form action = "get">
                     <select name="lang" class="drop_down">
                         <option value="eng">english | francaise</option>
                         <option value="eng">francaise</option>
@@ -22,11 +23,11 @@
                         <option value="eng">deutsh | francaise | italiano</option>
                         <option value="eng" selected>english | espanol</option>
                     </select>
-                </form>
+                </form> -->
             </div>
             <nav>
                 <div class="img">
-                    <a href="index.html"><img src="img/WKND.png" alt="WKND Logo"  ></a>
+                    <a href="index.html"><img src="img/WKND@2x.png" alt="WKND Logo"  ></a>
                 </div>
                 <ul>
                     <li><a href="index.html">WKND</a></li>
@@ -46,7 +47,7 @@
                     <p>Join us on one of our next adventures. 
                         Browse our list of curated experiences and sign 
                         up for one when you’re ready to explore with us.
-                       </p>
+                       </p><br>
                        <span class="button">view trips</span>
                        <!-- another branch to be opened for js slider -->
                  </section>
@@ -56,22 +57,22 @@
 
         <!-- main-->
         <main>
-            <section>
+            <div class="last_article">
                 <div class="article">
                     <div class="hr_underline">
                         <h3>Last Article</h3>
                         <hr>
                     </div>
-                    <h4>Camping in Western Australia</h4>
+                    <h4>Camping in Western Australia</h4><br>
                     <p>A vibrant red, dusty highway stretches out before us 
                         into what seems like infinity, at the far reach of our 
                         sights it distorts and shimmers from the afternoon heat, 
                         fading into the blue of the horizon.
-                    </p>
+                    </p><br>
                     <span class="button">read more</span>
                 </div>
                 <img src="img/river.jpg" alt="River Img">
-            </section>
+            </div>
             <article>
                 <div class="hr_underline">
                     <h3>Recent Article</h3>
@@ -98,26 +99,26 @@
                         <p>San Diego Surf Spots</p>
                         <p>Justin Barr</p>
                     </div>
+                </div><br>
+                <hr> <br><br>
+                <div  class="hr_underline">
+                    <h3 >Next Adventures</h3>
+                    <hr>
                 </div>
-            </article>
-            <hr>           
+            </article>          
             <div class="banner">
-                <div>
-                 <h3  class="hr_underline">Next Adventures</h3>
-                 <hr>
-                </div>
-                <img src="img/banner.jpg" alt="Header Banner">
+                <img src="img/new_zeal.jpg" alt="Header Banner">
                 <section>
                     <h3>Climbing New Zealand</h3>
                     <p>Let us help you make your New Zealand climbing vacation a 
                         memory you will cherish forever! Come join us for a guided 
                         rock climbing adventure in the mountains that trained Sir Edmund Hilary.
-                    </p>
+                    </p><br>
                     <span class="button">view trips</span>
                 </section>
             </div>
-            <article>
-                <p>Where do you want to go?</p>
+            <article class="wanna_go">
+                <p class="title">Where do you want to go?</p>
                 <div class="images">
                     <div class="whistler_mountain">
                         <img src="img/whistler_mountain.jpg" alt="whistler Mountain">
@@ -139,8 +140,8 @@
                         <p>Riverside camping</p>
                         <p>Camping</p>
                     </div>
-                    <span class="dark_button">explore all</span>
                 </div>
+                <span class="dark_button">explore all</span>
                 <hr>
             </article>
             <div class="inbox">
@@ -161,23 +162,25 @@
 
         <!-- Footer-->
         <footer>
-            <nav>
-                <div class="img">
-                        <a href="index.html"><img src="img/WKND_light.png" alt="WKND Light Logo" ></a>
-                </div>
-                <ul>
-                    <li><a href="index.html">WKND</a></li>
-                    <li><a href="magazine.html">Magazine</a></li>
-                    <li><a href="faq.html">Faq</a></li>
-                    <li><a href="about_us.html">About Us</a></li>
-                </ul>
-                <div class="social_icons">
-                    <a href="#" class="fa fa-instagram"></a>
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-twitter"></a>
-                </div>
-            </nav>
-            <p>Ⓒ 2021, WKND Portfolio Site| Kasweka Michael Mukoko| Kaswekamukoko@gmail.com</p>
+            <div class="wrapper">
+                <nav>
+                    <div class="img">
+                            <a href="index.html"><img src="img/WKND_light.png" alt="WKND Light Logo" ></a>
+                    </div>
+                    <ul>
+                        <li><a href="index.html">WKND</a></li>
+                        <li><a href="magazine.html">Magazine</a></li>
+                        <li><a href="faq.html">Faq</a></li>
+                        <li><a href="about_us.html">About Us</a></li>
+                    </ul>
+                    <div class="social_icons">
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                    </div>
+                </nav>
+                <p>Ⓒ 2021, WKND Portfolio Site| Kasweka Michael Mukoko| Kaswekamukoko@gmail.com</p>
+            </div>
         </footer>
         <!--Footer-->
     </div>

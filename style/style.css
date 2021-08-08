@@ -1,0 +1,245 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* HEADER */
+header .top_header{
+    display: flex;
+    justify-content: flex-end;
+    align-items:center; 
+    background-color: #202020;
+    color: #909090;
+    padding:10px;
+}
+header .top_header select.drop_down{
+    padding:0px;
+    background-color:#202020;
+    color:#909090;
+    padding:10px 5px;
+} 
+header .top_header a{
+    text-decoration: none;
+}
+header .top_header p{
+    margin:0;
+}
+header .top_header a{
+    color: #909090;
+}
+header .top_header *{
+    padding-right:10px ;
+}
+nav{
+    display: flex;
+    align-items: baseline;
+    padding: 30px;
+}
+
+nav .img{
+    margin: auto 30% auto 0;
+    
+}
+nav li{
+    display: inline;
+       
+}
+nav li a{
+    text-decoration: none;
+    color: #202020;
+    text-transform: uppercase;
+    margin-right: 35px;
+    font-size: 0.9em;
+}
+nav form input{
+    padding: 10px;
+    background-color: #EBEBEB;
+    border: 1px solid #95989A;
+    text-transform: uppercase;
+    font-size: .85em;
+}
+nav form a{
+    text-decoration: none;
+    color: #202020;
+    position: relative;
+    right: 25px;
+}
+.banner{
+    position: relative;
+    margin-bottom: 70px;
+}
+.banner img{
+    width: 100%;
+}
+.banner section{
+    width: 80%;
+    padding: 40px 40px 80px 40px;
+    color: #202020;
+    background-color: white;
+    position: absolute;
+    bottom:-40px;
+    left: 78px;
+
+}
+.banner section h3{
+    font-size: 2.5em;
+    font-weight: 400;
+    margin: 0;
+}
+.banner section p{
+    line-height: 1.8em;
+}
+
+.button{
+    text-transform: uppercase;
+    background-color: #FFEB00;
+    padding: 20px 30px;
+    font-size: .85em;
+    font-family:sans-serif;
+    font-weight: 550;
+    cursor: pointer;
+}
+/* HEADER*/
+
+/* MAIN*/
+
+main .last_article{
+    display: flex;
+    background-color: #F7F7F7;
+    width: 85%;
+    margin: 0 auto;
+}
+main .last_article .article{
+    color: #202020;
+    padding: 25px 15px 15px 15px;
+}
+.hr_underline h3{
+    font-family: sans-serif;
+    font-size: 2.2em;
+    margin: 0;
+    font-weight: 500;
+    color: #202020;
+}
+.hr_underline hr{
+    width: 75px ;
+    margin: 10px 0 0 0;
+    color: #FFEB00;
+    border: 1px solid #FFEB00;
+}
+main .last_article .article h4{
+    font-weight: 500;
+    font-size: 1.29em;
+}
+main .last_article .article p{
+    font-size: .8em;
+    margin-bottom: 120px;
+}
+
+main article{
+    margin: 50px auto;
+    width: 85%;
+}
+main article .hr_underline{
+    margin-bottom: 20px;
+}
+main article .images{
+    display: flex;
+    justify-content: space-between;
+}
+main article .images div{
+    width: 22.5%;
+    color: #202020;
+    text-transform: uppercase;
+}
+main article .images div p{
+    font-size: .7em;
+    margin: 7px 0;
+}
+main article .images div p:first-of-type{
+    font-weight: 550;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+main article hr{
+    border: .8px solid #EBEBEB;
+}
+main .wanna_go .title{
+    font-size: 1.4em;
+    margin:10px 0 30px ;
+}
+main .wanna_go div{
+    margin-bottom: 28px;
+}
+main .wanna_go .dark_button{
+    text-transform: uppercase;
+    background-color: #202020;
+    color: #ffffff;
+    padding: 15px 30px;
+    font-size: .85em;
+    font-family:sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+main .wanna_go hr{
+    margin: 60px 0;
+}
+main .inbox{
+    width: 85%;
+    margin: 0 auto 35px;
+    display: flex;
+    background-color: #f7f7f7;
+}
+main .inbox div{
+    padding: 15px 0 15px 30px;
+}
+main .inbox h3{
+    margin: 0;
+    font-size: 2.2em;
+    font-weight: 400;
+}
+main .inbox p{
+    font-size: .84em;
+}
+main .inbox form input[type = 'email']{
+    padding: 10px;
+    background-color: #EBEBEB;
+    border: 1px solid #95989A;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: .85em;
+}
+main .inbox form input[type = 'submit']{
+    padding: 10px;
+    text-transform: uppercase;
+    background-color: #202020;
+    color: #ffffff;
+    border: 1px solid #202020;
+}
+/* MAIN*/
+
+/* FOOTER*/
+footer{
+    background-color: #202020;
+    color: #909090;
+    padding: 10px 0 10px 20px;
+}
+footer nav ul li a{
+    color: #909090;
+}
+footer .social_icons a{
+    color: #202020;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+footer .social_icons{
+    background-color: #EBEBEB;
+    
+}
+footer p{
+    margin: 20px 0 20px 30px;
+}
+footer div.wrapper{
+    width: 85%;
+    margin: 0 auto;
+}
