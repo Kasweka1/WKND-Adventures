@@ -11,6 +11,7 @@ header .top_header{
     background-color: #202020;
     color: #909090;
     padding:10px;
+    
 }
 header .top_header select.drop_down{
     padding:0px;
@@ -34,6 +35,8 @@ nav{
     display: flex;
     align-items: baseline;
     padding: 30px;
+    width: 85%;
+    margin: 0 auto;
 }
 
 nav .img{
@@ -50,6 +53,10 @@ nav li a{
     text-transform: uppercase;
     margin-right: 35px;
     font-size: 0.9em;
+}
+nav li .selected{
+    background-color: #FFEB00;
+    padding: 12px ;
 }
 nav form input{
     padding: 10px;
@@ -113,6 +120,7 @@ main .last_article .article{
     color: #202020;
     padding: 25px 15px 15px 15px;
 }
+ 
 .hr_underline h3{
     font-family: sans-serif;
     font-size: 2.2em;
@@ -160,6 +168,145 @@ main article .images div p:first-of-type{
     font-size: 16px;
     line-height: 1.5em;
 }
+
+/* Magazine Page*/
+main article .image_2 {
+    width: 22.5%;
+    color: #202020;
+    text-transform: uppercase;
+}
+main article .image_2 p{
+    font-size: .7em;
+    margin: 7px 0;
+}
+main article .image_2 p:first-of-type {
+    font-weight: 550;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #202020;
+    text-transform: uppercase;
+}
+main .members{
+    width: 85%;
+    margin: 0 auto;
+}
+main .members hr{
+    margin: 50px 0;
+}
+main .members .sign_in p{
+    margin: 20px 0;
+}
+main .members .blur_images{
+    display: flex;
+}
+main .members .blur_images *{
+    margin-right: 10px;
+}
+main .members .blur_images {
+    color: #202020;
+    text-transform: uppercase;
+}
+main .members .blur_images p{
+    font-size: .7em;
+    margin: 7px 0;
+}
+main .members .blur_images p:first-of-type {
+    font-weight: 550;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #202020;
+    text-transform: uppercase;
+}
+main #mag_container .title {
+    width: 85%;
+    margin: 0 auto;
+}
+main #mag_container .title h2{
+    font-size: 2.4em;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+}
+/* Magazine Page*/
+
+/* FAQ Page*/
+
+main#faq {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 85%;
+    margin: 0 auto;
+    grid-gap: 95px;
+}
+main#faq .title h2{
+    font-size: 2.4em;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+}
+
+main#faq .faq_woman p{
+    width: 78%;
+    font-size: 1.05em;
+    line-height: 2em;
+    margin: 40px 0 40px 0;
+}
+main#faq .aside{
+  padding:20px;
+}
+main#faq .aside .contacts{
+    font-size: .8em;
+}
+
+/* FAQ Page*/
+
+/* About Us Page*/
+main#about{
+    width: 85%;
+    margin: 0 auto;
+}
+main#about .contributers p{
+    margin: 20px 0;
+}
+main#about .round_imgs{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    /* justify-content: space-between; */
+}
+main#about .round_imgs .stacey, .jake, .ian, .jacob{
+    text-align: center;
+    width: 20%;
+    margin: 0 30px 0 0;
+}
+main#about .round_imgs {
+    color: #202020;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+main#about .round_imgs p{
+    font-size: .7em;
+    margin: 7px 0;
+}
+main#about .round_imgs p p:first-of-type {
+    font-weight: 550;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #202020;
+    text-transform: uppercase;
+}
+
+main#about .social_icons a{
+    color: #ebebeb;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+main#about .social_icons{
+    background-color: #202020;
+    width: 120px;
+    margin: 20px auto;
+}
+
+/* About Us Page*/
 main article hr{
     border: .8px solid #EBEBEB;
 }
@@ -215,6 +362,7 @@ main .inbox form input[type = 'submit']{
     color: #ffffff;
     border: 1px solid #202020;
 }
+
 /* MAIN*/
 
 /* FOOTER*/
@@ -222,6 +370,9 @@ footer{
     background-color: #202020;
     color: #909090;
     padding: 10px 0 10px 20px;
+}
+footer nav{
+    margin: 0;
 }
 footer nav ul li a{
     color: #909090;

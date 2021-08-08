@@ -4,6 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/style.css">
     <title>About Us</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
                 <a href="#" class="fa fa-user"></a>
                 <p>Account</p>
                 <!-- the drop down for languages  and how to style them effeciently-->
-                <form method = "get">
+                <!-- <form method = "get">
                     <select name="lang" class="drop_down">
                         <option value="eng">english | francaise</option>
                         <option value="eng">francaise</option>
@@ -22,11 +23,11 @@
                         <option value="eng">deutsh | francaise | italiano</option>
                         <option value="eng" selected>english | espanol</option>
                     </select>
-                </form>
+                </form> -->
             </div>
             <nav>
                 <div class="img">
-                    <a href="index.html"><img src="img/WKND.png" alt="WKND Logo"  ></a>
+                    <a href="index.html"><img src="img/WKND@2x.png" alt="WKND Logo"  ></a>
                 </div>
                 <ul>
                     <li><a href="index.html">WKND</a></li>
@@ -43,21 +44,23 @@
         <!-- header-->
 
         <!-- main-->
-        <main>
+        <main id="about">
             <div class="wrapper">
                 <section class="contributer">
                     <div class="hr_underline">
                         <h3>Our Contributers</h3>
                         <hr>
                     </div>
-                    <p>Meet the outstanding individuals responsible for bringing you the 
-                       most compelling stories across the globe. 
-                    </p>
+                    <div class="contributers">
+                        <p>Meet the outstanding individuals responsible for bringing you the 
+                           most compelling stories across the globe. 
+                        </p>
+                    </div>
                     <div class="round_imgs">
                         <div class="stacey">
                             <img src="img/stacey.jpg" alt="Stacey Roswells">
                             <h3>Stacey Roswells</h3>
-                            <p>Artist | Photographer | Traveller </p>
+                            <p>Artist | Traveller </p>
                             <div class="social_icons">
                                 <a href="#" class="fa fa-instagram"></a>
                                 <a href="#" class="fa fa-facebook"></a>
@@ -118,7 +121,7 @@
                             </div>
                         </div>
                         <div class="jake">
-                            <img src="img/jake.jpg" alt="Justin Barr">
+                            <img src="img/justin.jpg" alt="Justin Barr">
                             <h3>Justin Barr</h3>
                             <p>Artist | RockClimber </p>
                             <div class="social_icons">
@@ -129,13 +132,16 @@
                         </div>
                         <div class="ian">
                             <img src="img/kumar.jpg" alt="Kumar Selveraj">
-                            <h3>Ian Provo</h3>
+                            <h3>Kumar Selveraj</h3>
                             <p>Photographer | surfer</p>
                             <div class="social_icons">
                                 <a href="#" class="fa fa-instagram"></a>
                                 <a href="#" class="fa fa-facebook"></a>
                                 <a href="#" class="fa fa-twitter"></a>
                             </div>
+                        </div>
+                        <div>
+                          <!-- Just a Place Holder-->  
                         </div>
                     </div>
                 </section>
@@ -145,23 +151,25 @@
 
         <!-- Footer-->
         <footer>
-            <nav>
-                <div class="img">
-                    <a href="index.html"><img src="img/WKND_light.png" alt="WKND Light Logo" ></a>
-                </div>
-                <ul>
-                    <li><a href="index.html">WKND</a></li>
-                    <li><a href="magazine.html">Magazine</a></li>
-                    <li><a href="faq.html">Faq</a></li>
-                    <li><a href="about_us.html">About Us</a></li>
-                </ul>
-                <div class="social_icons">
-                    <a href="#" class="fa fa-instagram"></a>
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-twitter"></a>
-                </div>
-            </nav>
-            <p>Ⓒ 2021, WKND Portfolio Site| Kasweka Michael Mukoko| Kaswekamukoko@gmail.com</p>
+            <div class="wrapper">
+                <nav>
+                    <div class="img">
+                            <a href="index.html"><img src="img/WKND_light.png" alt="WKND Light Logo" ></a>
+                    </div>
+                    <ul>
+                        <li><a href="index.html">WKND</a></li>
+                        <li><a href="magazine.html">Magazine</a></li>
+                        <li><a href="faq.html">Faq</a></li>
+                        <li><a href="about_us.html">About Us</a></li>
+                    </ul>
+                    <div class="social_icons">
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                    </div>
+                </nav>
+                <p>Ⓒ 2021, WKND Portfolio Site| Kasweka Michael Mukoko| Kaswekamukoko@gmail.com</p>
+            </div>
         </footer>
         <!--Footer-->
     </div>
